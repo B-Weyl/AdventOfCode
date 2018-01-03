@@ -1,18 +1,30 @@
-from collections import *
-import itertools
-import random
-import sys
-from math import ceil
-import re
+from collections import defaultdict
+
+f = open("8.in").read().strip().splitlines()
+regs = defaultdict(int)
 
 
-def solve(s):
-    for line in s:
+def compute(left, op, right):
+    try:
+        left = int(left)
+    except:
+        left = regs[left]
+    try:
+        right = int(right)
+    except:
+        right = regs[right]
+    return eval(str(left) + op + str(right))
 
-    return
+m = 0
+for line in f:
+    reg, act, amt, _if, left, op, right = line.strip().split()
+    if compute(left, op, right):
+        if act == 'inc':
+            asdf = int(amt)
+        else:
+            asdf = -int(amt)
+        regs[reg] = regs[reg] + asdf
+        m = max(regs[reg], m)
 
-
-def main():
-    s = sys.stdin.readlines()
-    print(solve(s))
-main()
+print(max(regs.values()))
+print(m)
