@@ -1,0 +1,15 @@
+{"compile":[
+]
+],
+"link":[
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/split.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_system.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_parseutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_math.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_algorithm.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_sequtils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_macros.o"
+],
+"linkcmd": "clang   -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/split  /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/split.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_system.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_parseutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_math.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_algorithm.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_sequtils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_macros.o  -lm   -ldl"
+}

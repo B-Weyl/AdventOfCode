@@ -1,0 +1,16 @@
+{"compile":[
+["/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/test.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/test.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/test.c"],
+["/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.c"]
+],
+"link":[
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/test.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_system.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_sequtils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_parseutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_math.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_algorithm.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_macros.o"
+],
+"linkcmd": "clang   -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/test  /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/test.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_system.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_strutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_sequtils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_parseutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_math.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_algorithm.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day2/nimcache/stdlib_macros.o  -lm   -ldl"
+}

@@ -1,0 +1,15 @@
+{"compile":[
+["/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/b.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/b.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/b.c"]
+],
+"link":[
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/b.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_system.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_strutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_parseutils.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_math.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_algorithm.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_intsets.o",
+"/Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_hashes.o"
+],
+"linkcmd": "clang   -o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/b  /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/b.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_system.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_strutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_parseutils.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_math.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_algorithm.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_intsets.o /Users/bweyl/Documents/PythonCoding/AdventOfCode/2018/Day1/nimcache/stdlib_hashes.o  -lm   -ldl"
+}
